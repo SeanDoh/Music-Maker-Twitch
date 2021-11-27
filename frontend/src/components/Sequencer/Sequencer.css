@@ -1,0 +1,57 @@
+.sequencer{
+  display:flex;
+  flex-direction: column;
+  height:100%;
+}
+
+.sequencer-row{
+  display:flex;
+  height:100%;
+  margin-bottom:2px;
+}
+
+.sequencer-grid{
+  width:100%;
+  height:100%;
+  background-color:#4B5563;
+  margin:1px;
+}
+
+.sequencer-grid-clicked{
+  width:100%;
+  height:100%;
+  background-color:#1E3A8A;
+  margin:1px;
+}
+
+.sequencer-grid-pulsed{
+  width:100%;
+  height:100%;
+  background-color:#3B82F6;
+  margin:1px;
+}
+
+.sequencer-grid-clicked-pulsed{
+  width:100%;
+  height:100%;
+  background-color:#2563EB;
+  margin:1px;
+}
+
+.sequencer-grid-hover{
+  width:100%;
+  height:100%;
+  background-color:#6B7280;
+  margin:1px;
+}
+
+.sequencer-grid-clicked-hover{
+  width:100%;
+  height:100%;
+  background-color:#1E40AF;
+  margin:1px;
+}
+
+.controls{
+  display:flex;
+}
